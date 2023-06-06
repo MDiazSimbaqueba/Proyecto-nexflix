@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+}
+/* Estilos cuerpo de la página */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/imagen-fondo.jpg");
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+}
+/* Estilos barra de navegación */
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    display: flex;
+    align-items: flex-start;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botflix-logo{
+    width: 200px;
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 450px;
+    padding: 60px 68px 40px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+}
+
+section{
+    margin: 0 0 100px 0;
+}
+
+.login-box{
+    color: #8c8c8c;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    justify-content: center;
+    margin: 15px 0px;
+    background-color: #333333;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom-color: orangered;
+    font-size: 16px;
+    display: grid;
+    width: 300px;
+    height: 50px;
+    gap: 10px;
+}
+
+#id-user{
+    color: #dbdbdb;
+}
+
+#password{
+    color: #dbdbdb;
+}
+
+#btn-login{
+    justify-content: center;
+    margin: 10px 0;
+    background-color: #e50914;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-color: #cc0d17;
+}
+
+#btn-login:hover{
+   background-color: #dd2a33;
+}
+
+.btn-login-link{
+    text-decoration: none;
+    color: white;
+}
+
+#remember{
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.sp-remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    position: relative;
+    top: -38px;
+    right: -23px;
+    width: 270px;
+    
+}
+
+.text-buttom-1{
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+}
+
+.text-buttom-1-subscribe{
+    color: white;
+}
+
+.text-buttom-2{
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+}
+
+.text-buttom-2-info{
+    color: #0071eb;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px;
+}
+
+#footer .footer-text-1{
+    color: #8c8c8c;
+    font-size: 16px;
+    position: relative;
+    top: -50px;
+}
+
+#footer-list li{
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+}
+
+#footer-list a{
+    color: #8c8c8c;
+}
