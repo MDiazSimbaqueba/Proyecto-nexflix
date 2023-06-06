@@ -74,7 +74,7 @@ input{
 
 #btn-login{
     justify-content: center;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     background-color: #e50914;
     cursor: pointer;
     text-align: center;
