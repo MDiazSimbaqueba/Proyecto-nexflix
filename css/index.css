@@ -153,11 +153,14 @@ footer{
 }
 
 #footer-list li{
-    text-decoration: none;
     display: inline;
     margin: 10px;
 }
 
 #footer-list a{
     color: #8c8c8c;
+}
+
+a{
+    text-decoration: none;
 }
